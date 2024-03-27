@@ -86,7 +86,7 @@ app.use("/client", client);
 
 // Servidor
 // Servidor e conexão com banco
-//app.listen(5030);
+app.listen(5030);
 //conn
   //.sync({force: true})
  // .sync()
