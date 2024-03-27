@@ -87,10 +87,10 @@ app.use("/client", client);
 // Servidor
 // Servidor e conexão com banco
 app.listen(5030);
-//conn
-  //.sync({force: true})
- // .sync()
- // .then()
- // .catch((error) => {
-//    console.log(error);
-//  });
+conn
+  .sync({force: true})
+ .sync()
+ .then()
+ .catch((error) => {
+   console.log(error);
+ });
